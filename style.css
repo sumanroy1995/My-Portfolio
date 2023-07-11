@@ -2,3 +2,11 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.container-centre{
+    max-width:fit-content;
+    margin:auto;
+}
