@@ -4,6 +4,7 @@ body{
 }
 :root{
     --color:#34D399;
+    --navcolor: #059669;
 }
 hr{
     margin: 2rem 0rem;
@@ -40,4 +41,21 @@ hr{
 .list-item-inline{
     display: inline;
     padding:0rem 0.5rem;
+}
+.nav-section{
+    background-color: var(--navcolor);
+    color:white;
+    padding: 0.6rem 0.7rem;
+    border-radius: 0.4rem;
+}
+.nav-text{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.text-list{
+    text-decoration: none;
+    color: white;
+}
+.nav-pills{
+    text-align: right;
 }
