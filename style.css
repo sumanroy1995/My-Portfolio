@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 :root{
     --color:#34D399;
 }
-
-body{
-    font-family: 'Ubuntu', sans-serif;
+hr{
+    margin: 2rem 0rem;
 }
 .container{
     padding-left:1rem;
@@ -28,4 +30,14 @@ body{
     color: var(--color);
     border:1px solid var(--color);
     border-radius: 0.7rem;
+}
+.list-non-bullet{
+    list-style:none;
+}
+.list-item{
+    padding: 0rem 0.5rem;
+}
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
 }
