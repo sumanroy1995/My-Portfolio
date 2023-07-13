@@ -6,6 +6,7 @@ body{
     --color:#34D399;
     --navcolor: #059669;
     --darkgray: #9CA3AF;
+    --lightgray: #F9FAFB;
 }
 hr{
     margin: 2rem 0rem;
@@ -15,7 +16,7 @@ hr{
     padding-right:1rem;
 }
 .container-centre{
-    max-width:fit-content;
+    max-width: 600px;
     margin:auto;
 }
 .linkpad{
@@ -73,4 +74,13 @@ hr{
 }
 .header-pad .span-col{
     color: var(--navcolor);
+}
+.section h3{
+    text-align: center;
+}
+.section-bg{
+    background-color: var(--lightgray);
+}
+.section{
+    padding: 2rem;
 }
