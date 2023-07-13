@@ -5,6 +5,7 @@ body{
 :root{
     --color:#34D399;
     --navcolor: #059669;
+    --darkgray: #9CA3AF;
 }
 hr{
     margin: 2rem 0rem;
@@ -58,4 +59,18 @@ hr{
 }
 .nav-pills{
     text-align: right;
+}
+.header-pad{
+    padding: 2rem;
+    color: var(--darkgray);
+    text-align: center;
+}
+.header-pad .header-img{
+    height: 500px;
+    width:500px;
+    display: block;
+    margin: auto;
+}
+.header-pad .span-col{
+    color: var(--navcolor);
 }
