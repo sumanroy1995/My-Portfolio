@@ -46,12 +46,12 @@ hr{
 }
 .list-item-inline{
     display: inline;
-    padding:0rem 0.5rem;
+    padding:0rem 1.2rem;
 }
 .nav-section{
     background-color: var(--navcolor);
     color:white;
-    padding: 0.6rem 0.7rem;
+    padding: 0.6rem 0.3rem;
     border-bottom-left-radius: 1.5rem;
 }
 .nav-text{
@@ -109,4 +109,8 @@ hr{
 }
 .footer .footer-pad{
     padding-inline-start: 0px;
+}
+.footer-item-inline{
+    display: inline;
+    padding: 0rem 0.9rem;
 }
