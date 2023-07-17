@@ -1,4 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+:root{
+    --color:#34D399;
+    --navcolor: #059669;
+    --darkgray: #9CA3AF;
+    --lightgray: #F9FAFB;
+    --footercol: #3eb988;
+    --navtextcol: #D1FAE5;
+}
+hr{
+    margin: 2rem 0rem;
+}
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.container-centre{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.linkpad{
+    text-decoration: none;
+    padding: 0.4rem 2rem;
+}
+.link-primary{
+    background-color: var(--color);
+    color: white;
+    border:1px solid var(--color);
+    border-radius: 0.7rem;
+    padding: ;
+}
+.link-secondary{
+    color: var(--color);
+    border:1px solid var(--color);
+    border-radius: 0.7rem;
+}
+.list-non-bullet{
+    list-style:none;
+}
+.list-item{
+    padding: 0rem 0.5rem;
+}
+.list-item-inline{
+    display: inline;
+    padding:0rem 1.5rem;
+}
+.nav-section{
+    background-color: var(--navcolor);
+    color:white;
+    padding: 0.6rem 0.7rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.nav-text{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--navtextcol);
+}
+.text-list{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-pills{
+    text-align: right;
+}
+.header-pad{
+    padding: 2rem;
+    color: var(--darkgray);
+    text-align: center;
+}
+.header-pad .header-img{
+    height: 400px;
+    width:400px;
+    display: block;
+    margin: auto;
+}
+.header-pad .span-col{
+    color: var(--navcolor);
+}
+/* .section h3{
+    text-align: center;
+} */
+.section-bg{
+    background-color: var(--lightgray);
+}
+.section{
+    padding: 2rem;
+}
+.section .para-pad{
+    padding: 0.3rem;
+}
+.section .section-para{
+    text-align: left;
+}
+.footer{
+    background-color:var(--footercol);
+    color: #F9FAFB;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-bottom-right-radius: 1.5rem;
+}
+.footer .footer-head{
+    font-weight: bold;
+    font-size: large;
+}
+.footer .footer-pad{
+    padding-inline-start: 0px;
 }
