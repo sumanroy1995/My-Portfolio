@@ -9,6 +9,7 @@ body{
     --darkgray: #9CA3AF;
     --lightgray: #F9FAFB;
     --footercol: #3eb988;
+    --navtextcol: #D1FAE5;
 }
 hr{
     margin: 2rem 0rem;
@@ -31,6 +32,7 @@ hr{
     color: white;
     border:1px solid var(--color);
     border-radius: 0.7rem;
+    padding: ;
 }
 .link-secondary{
     color: var(--color);
@@ -45,7 +47,7 @@ hr{
 }
 .list-item-inline{
     display: inline;
-    padding:0rem 0.5rem;
+    padding:0rem 1.5rem;
 }
 .nav-section{
     background-color: var(--navcolor);
@@ -56,10 +58,12 @@ hr{
 .nav-text{
     font-weight: bold;
     font-size: 1.3rem;
+    color: var(--navtextcol);
 }
 .text-list{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 .nav-pills{
     text-align: right;
@@ -70,29 +74,39 @@ hr{
     text-align: center;
 }
 .header-pad .header-img{
-    height: 500px;
-    width:500px;
+    height: 400px;
+    width:400px;
     display: block;
     margin: auto;
 }
 .header-pad .span-col{
     color: var(--navcolor);
 }
-.section h3{
+/* .section h3{
     text-align: center;
-}
+} */
 .section-bg{
     background-color: var(--lightgray);
 }
 .section{
     padding: 2rem;
 }
+.section .para-pad{
+    padding: 0.3rem;
+}
+.section .section-para{
+    text-align: left;
+}
 .footer{
     background-color:var(--footercol);
     color: #F9FAFB;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     border-bottom-right-radius: 1.5rem;
+}
+.footer .footer-head{
+    font-weight: bold;
+    font-size: large;
 }
 .footer .footer-pad{
     padding-inline-start: 0px;
